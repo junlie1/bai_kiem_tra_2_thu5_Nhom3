@@ -1,0 +1,60 @@
+/* src/styles/AddProduct.css */
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container input[type="text"],
+  .container input[type="number"],
+  .container textarea,
+  .container input[type="file"],
+  .container label,
+  .container button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .container textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .container label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container button:hover {
+    background-color: #45a049;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .checkbox-label input[type="checkbox"] {
+    transform: scale(1.2);
+  }
+  

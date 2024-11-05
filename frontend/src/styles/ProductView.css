@@ -1,0 +1,82 @@
+/* src/styles/ProductView.css */
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.product-table th, .product-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+}
+
+.product-table td {
+  text-align: left;
+}
+
+.product-table td:first-child, .product-table th:first-child {
+  text-align: center;
+  width: 80px; /* Đặt chiều rộng cố định cho cột ảnh */
+}
+
+.product-table td:nth-child(2) {
+  width: 200px; /* Đặt chiều rộng cho cột tên sản phẩm */
+}
+
+.description-cell {
+  max-width: 300px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.product-table td:nth-child(4), 
+.product-table td:nth-child(5), 
+.product-table td:nth-child(6), 
+.product-table td:nth-child(7) {
+  text-align: center;
+  width: 100px; /* Đặt chiều rộng cố định cho các cột ngắn */
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.action-buttons button {
+  padding: 8px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.action-buttons button:hover {
+  background-color: #45a049;
+}
+
+.action-buttons button:focus {
+  outline: none;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
